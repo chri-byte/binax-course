@@ -1,0 +1,16 @@
+title: Binax
+description: "Fbjnyy be back by then back to work on b dat so I can bring back the same thing but na be able to receive calls I will mine to you that Vu you have a wonderful day today \U0001F970"
+template:
+  repo: binax-template
+  name: binax
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
